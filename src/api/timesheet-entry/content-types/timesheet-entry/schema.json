@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "timesheet_entries",
+  "info": {
+    "singularName": "timesheet-entry",
+    "pluralName": "timesheet-entries",
+    "displayName": "TimesheetEntry",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "DateAdded": {
+      "type": "date"
+    },
+    "StartTime": {
+      "type": "time"
+    },
+    "EndTime": {
+      "type": "time"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "ActivityType": {
+      "type": "enumeration",
+      "enum": [
+        "Development",
+        "Maintenance",
+        "Meeting",
+        "Requirement",
+        "Testing",
+        "UAT",
+        "Others"
+      ]
+    },
+    "Duration": {
+      "type": "integer"
+    },
+    "projects": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project.project",
+      "mappedBy": "timesheet_entry"
+    }
+  }
+}

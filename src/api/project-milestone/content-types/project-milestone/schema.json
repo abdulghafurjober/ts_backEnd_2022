@@ -1,0 +1,63 @@
+{
+  "kind": "collectionType",
+  "collectionName": "project_milestones",
+  "info": {
+    "singularName": "project-milestone",
+    "pluralName": "project-milestones",
+    "displayName": "ProjectMilestone",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Phase_CR_MS": {
+      "type": "enumeration",
+      "enum": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "CR",
+        "MS"
+      ]
+    },
+    "Milestone_No": {
+      "type": "string"
+    },
+    "Milestone_Description": {
+      "type": "string"
+    },
+    "Payment_Percent": {
+      "type": "decimal"
+    },
+    "Amount": {
+      "type": "decimal"
+    },
+    "Our_Share_Amount": {
+      "type": "decimal"
+    },
+    "Partner_Amount": {
+      "type": "decimal"
+    },
+    "Referral_Amount": {
+      "type": "decimal"
+    },
+    "Milestone_Date": {
+      "type": "date"
+    },
+    "Revised_Milestone_Date": {
+      "type": "date"
+    },
+    "Invoice_Number": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "kind": "collectionType",
+  "collectionName": "project_phases",
+  "info": {
+    "singularName": "project-phase",
+    "pluralName": "project-phases",
+    "displayName": "ProjectPhase",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Phase_CR_MS": {
+      "type": "enumeration",
+      "enum": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "CR",
+        "MS"
+      ]
+    },
+    "ReferenceID": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "No_Of_Manday": {
+      "type": "integer"
+    },
+    "Amount": {
+      "type": "decimal"
+    },
+    "Status": {
+      "type": "enumeration",
+      "enum": [
+        "Pending",
+        "Estimate Submitted",
+        "Cancel",
+        "Approved PO Pending",
+        "PO Received"
+      ]
+    },
+    "Our_Share": {
+      "type": "decimal"
+    },
+    "Partner_Share": {
+      "type": "decimal"
+    },
+    "Referral_Share": {
+      "type": "decimal"
+    },
+    "Our_Share_Mandays": {
+      "type": "integer"
+    },
+    "Referral_Share_Mandays": {
+      "type": "integer"
+    },
+    "Our_Share_Amount": {
+      "type": "decimal"
+    },
+    "Partner_Share_Amount": {
+      "type": "decimal"
+    },
+    "Referral_Share_Amount": {
+      "type": "decimal"
+    },
+    "Partner_Share_Mandays": {
+      "type": "integer"
+    }
+  }
+}
