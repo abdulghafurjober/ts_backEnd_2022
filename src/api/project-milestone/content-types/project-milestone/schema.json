@@ -58,6 +58,33 @@
     },
     "Invoice_Number": {
       "type": "string"
+    },
+    "Invoice_Date": {
+      "type": "date"
+    },
+    "Invoice_Amount": {
+      "type": "decimal"
+    },
+    "Customer_Payment_Advice_No": {
+      "type": "string"
+    },
+    "Advice_Date": {
+      "type": "date"
+    },
+    "Partner_Invoice_No": {
+      "type": "string"
+    },
+    "Partner_Invoice_Date": {
+      "type": "date"
+    },
+    "Partner_Invoice_Amount": {
+      "type": "decimal"
+    },
+    "Avows_Payment_Advice_No": {
+      "type": "string"
+    },
+    "Avows_Payment_Advice_Date": {
+      "type": "date"
     }
   }
 }
