@@ -1,0 +1,90 @@
+{
+  "kind": "collectionType",
+  "collectionName": "project_milestones",
+  "info": {
+    "singularName": "project-milestone",
+    "pluralName": "project-milestones",
+    "displayName": "ProjectMilestone",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Phase_CR_MS": {
+      "type": "enumeration",
+      "enum": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "CR",
+        "MS"
+      ]
+    },
+    "Milestone_No": {
+      "type": "string"
+    },
+    "Milestone_Description": {
+      "type": "string"
+    },
+    "Payment_Percent": {
+      "type": "decimal"
+    },
+    "Amount": {
+      "type": "decimal"
+    },
+    "Our_Share_Amount": {
+      "type": "decimal"
+    },
+    "Partner_Amount": {
+      "type": "decimal"
+    },
+    "Referral_Amount": {
+      "type": "decimal"
+    },
+    "Milestone_Date": {
+      "type": "date"
+    },
+    "Revised_Milestone_Date": {
+      "type": "date"
+    },
+    "Invoice_Number": {
+      "type": "string"
+    },
+    "Invoice_Date": {
+      "type": "date"
+    },
+    "Invoice_Amount": {
+      "type": "decimal"
+    },
+    "Customer_Payment_Advice_No": {
+      "type": "string"
+    },
+    "Advice_Date": {
+      "type": "date"
+    },
+    "Partner_Invoice_No": {
+      "type": "string"
+    },
+    "Partner_Invoice_Date": {
+      "type": "date"
+    },
+    "Partner_Invoice_Amount": {
+      "type": "decimal"
+    },
+    "Avows_Payment_Advice_No": {
+      "type": "string"
+    },
+    "Avows_Payment_Advice_Date": {
+      "type": "date"
+    }
+  }
+}
