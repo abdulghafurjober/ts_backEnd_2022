@@ -1,0 +1,7 @@
+#rename to .env when use 
+
+HOST=0.0.0.0
+PORT=1337
+APP_KEYS=RsWPOjCVqy7Fmbh50dyAmg==,SbA+5uZZ5IdQT2UNjWuvlg==,zowEG5WOdvxt436dJJlLhQ==,/7Yak9ny31fVu3OwGvPe/Q==
+JWT_SECRET=398c1efd-37a0-46a5-a2c0-6ba7d4dbe942
+API_TOKEN_SALT=06a63b341488d66a49a6c1d0f4403f5e
